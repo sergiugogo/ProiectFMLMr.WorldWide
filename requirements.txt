@@ -1,0 +1,16 @@
+# --- ingestion (build-time) ---
+chromadb==1.5.9
+openai==2.38.0
+pypdf==6.12.2
+sentence-transformers==5.5.1
+python-dotenv==1.2.2
+
+# --- runtime (Socratic tutor) ---
+langgraph==1.2.4
+langgraph-checkpoint-sqlite==3.1.0
+ollama==0.6.2
+fastapi==0.136.3
+uvicorn[standard]==0.48.0
+
+# --- optional: only needed when USER_STATE_BACKEND=postgres ---
+# psycopg[binary]

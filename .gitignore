@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# mypy
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Secrets and env
+.env
+.env.*
+!.env.example
+
+# User-state database
+*.db
+
+# ChromaDB persistent storage
+chroma_db/
+
+# Generated curriculum (can be re-generated)
+curriculum/
+
+# Local model/cache folders (when downloading large models)
+models/
+
+# Misc
+*.sqlite3
+
+# Claude Code memory
+memory/
