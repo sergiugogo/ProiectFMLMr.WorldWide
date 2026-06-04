@@ -44,6 +44,7 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+frontend/.streamlit/secrets.toml
 
 # User-state database
 *.db
